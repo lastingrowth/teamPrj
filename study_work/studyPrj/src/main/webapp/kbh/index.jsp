@@ -1,5 +1,7 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+
 <%
-response.sendRedirect(
-request.getContextPath()+"/kbh/router.jsp?cate=info"
-);
+
+response.sendRedirect("router.jsp?cate=info");
+
 %>
