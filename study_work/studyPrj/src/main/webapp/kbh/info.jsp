@@ -17,8 +17,8 @@ aside > a{
 <header>   
 <h2>김보현입니다</h2>
 <nav>
-<a href="?cate=info&service=hello">기본정보</a>
-<a href="?cate=basic&service=bagette">취미</a>
-<a href="?cate=cake&service=cheeze">진로</a>
+<a href="?cate=info&service=basicinfo">기본정보</a>
+<a href="?cate=basic&service=hobby">취미</a>
+<a href="?cate=cake&service=career">진로</a>
 </nav>
 </header>
