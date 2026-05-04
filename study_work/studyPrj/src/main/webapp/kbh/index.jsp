@@ -1,5 +1,5 @@
 <%
-
-response.sendRedirect("action/router.jsp?cate=info");
-
+response.sendRedirect(
+request.getContextPath()+"/kbh/router.jsp?cate=info"
+);
 %>
