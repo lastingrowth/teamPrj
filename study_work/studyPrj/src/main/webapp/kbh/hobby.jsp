@@ -1,9 +1,9 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 
-<jsp:include page="/inc/header.jsp"/>
+<jsp:include page="header.jsp"/>
 
-<h1>취미</h1>
+
+<h2>취미</h2>
+
 
 ${msg}
-
-<jsp:include page="/inc/footer.jsp"/>
