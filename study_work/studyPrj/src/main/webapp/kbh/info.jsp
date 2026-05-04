@@ -1,9 +1,17 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 
-<jsp:include page="/inc/header.jsp"/>
+<jsp:include page="header.jsp"/>
 
-<h1>기본정보</h1>
+
+<h2>기본정보</h2>
+
 
 ${msg}
 
-<jsp:include page="/inc/footer.jsp"/>
+
+<br><br>
+
+
+Session ID :
+
+<%=session.getId()%>
