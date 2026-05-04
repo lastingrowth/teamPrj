@@ -22,16 +22,17 @@ nav a{
 
 <h2>김보현입니다</h2>
 
+
 <nav>
 
-<a href="<%=request.getContextPath()%>/kbh/router.jsp?cate=info">기본정보</a>
+<a href="router.jsp?cate=info">기본정보</a>
 
-<a href="<%=request.getContextPath()%>/kbh/router.jsp?cate=hobby">취미</a>
+<a href="router.jsp?cate=hobby">취미</a>
 
-<a href="<%=request.getContextPath()%>/kbh/router.jsp?cate=future">진로</a>
-
+<a href="router.jsp?cate=future">진로</a>
 
 </nav>
 
-</header>
+<hr>
 
+</header>
