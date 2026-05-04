@@ -1,3 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-김보현입니다
+<style>
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+nav>a{
+	display:block;
+}
+
+aside > a{
+	display: block;
+}
+
+</style>    
+<header>   
+<h2>김보현입니다</h2>
+<nav>
+<a href="?cate=info&service=hello">기본정보</a>
+<a href="?cate=basic&service=bagette">취미</a>
+<a href="?cate=cake&service=cheeze">진로</a>
+</nav>
+</header>
